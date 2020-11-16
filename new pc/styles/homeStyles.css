@@ -1,0 +1,112 @@
+html {
+	background-image: url("w.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+	visibility: hidden;
+	min-width: 120px;
+	max-width: 300px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 6px;
+	top:0;
+	left:0;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	position: absolute;
+}
+img {
+	max-height: 95px;
+	max-width: 79px;
+	
+	display: block;
+	margin:35%;
+}
+td {
+	box-shadow:20px 20px 20px 20px rgba(0, 0, 0, 0.5) inset;
+	padding:5px;
+	min-height: 200px;
+	min-width:200px;
+	max-width: 200px;
+	max-height: 200px;
+	margin: 0;
+}
+.navbar {
+	margin: auto;
+	text-align: center;
+	color:white;
+}
+#directory {
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+}
+a:link, a:visited {
+	color: white;
+}
+.navbar:hover #directory {
+	margin:auto;
+  	position: absolute;
+  	left: 0; right: 0;
+	height:auto;
+	z-index:11;
+	max-height: 200px;
+	transition-property: all;
+	transition-delay: 2s;
+	transition-duration: 5s;
+	transition-timing-function: linear;
+	text-align: center;
+}
+.websites {
+	padding: 15px;
+	position: absolute;
+}
+#reddit {
+	border-right: solid 1px red;
+	border-bottom: solid 1px red;
+}
+#youTube {
+	border-left: solid 1px red;
+	border-bottom: solid 1px red;
+}
+#fb {
+	border-top:solid 1px red;
+	border-right: solid 1px red;
+}
+#google {
+	border-top:solid 1px red;
+	border-left: solid 1px red;
+}
+.goog {
+	position: relative;
+	text-align: right;
+	padding-bottom: 20px;
+}
+iframe {
+	position: relative;
+	margin-left: 79%;
+
+}
+.clock {
+	text-align: center;
+	color:white;
+	padding-top: 100px;
+	font-size: 64px;
+	font-family:Courier New, monospace;
+	text-shadow: 2px 2px 8px black; 
+}
