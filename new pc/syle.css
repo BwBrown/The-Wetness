@@ -101,6 +101,7 @@ table {
 	overflow: hidden;
 }
 .navbar:hover #directory {
+  position: relative;
 	height:auto;
 	z-index:11;
 	max-height: 200px;
