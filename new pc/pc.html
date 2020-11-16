@@ -3,40 +3,10 @@
   <head>
     <title></title>
     <link rel="stylesheet" href="syle.css">
-    <script>
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-          var dropdowns= document.getElementsByClassName("dropdown-content");
-           var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-        }
-      function myFunctionOne() {
-        document.getElementById("myDropdownOne").classList.toggle("show");
-      }
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-          var dropdowns= document.getElementsByClassName("dropdown-contentOne");
-           var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-        }   
-    </script>
+    <script src="script.js"></script>
   </head>
   <body>
+    <div class="builds">
     <div class="i7_build">
     <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn"><img src="https://c1.neweggimages.com/ProductImageCompressAll1280/11-353-151-Z01.jpg" alt="Missing Image"><br>I7 Build</button>
@@ -126,7 +96,7 @@
   </div>
 </div>
   <div class="dropdownOne">
-  <button onclick="myFunctionOne()" class="dropbtn">Ryzen 5 Build</button>
+  <button onclick="myFunctionOne()" class="dropbtn"><img src="https://images-na.ssl-images-amazon.com/images/I/61mVHsxerTL._AC_SL1200_.jpg" alt="Missing Image"><br>Ryzen 5 Build</button>
   <div id="myDropdownOne" class="dropdown-contentOne">
 
 <table class="pcpp-part-list">
@@ -209,10 +179,6 @@
 </table>
     </div>
   </div>
-    <div class="ryzenBuildSum">
-      <table>
-        <th></th>
-      </table>
-    </div>
+</div>
   </body>
 </html>
