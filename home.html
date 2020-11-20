@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="styles/homeStyles.css">
+	<script src="js/googlesearch.js"></script>
+</head>
+<body>
+	<div class="navbar"> <a>The Wetness</a>
+      <div id="directory">
+        <a href="home.html">Home</a>
+        <br>
+        <a href="pc.html">Possible Builds</a>
+      </div>
+    </div>
+	<div class="websites">
+		<table>
+			<tr>
+				<td class="tooltip" id="reddit"><a href="https://www.reddit.com/"><img src="images/r.png"><a class="tooltiptext">Go to Reddit</a></a></td>
+				<td class="tooltip" id="youTube"><a href="https://www.youtube.com"><img src="images/yt.png"><a class="tooltiptext">Go to YouTube</a></a></td>
+		    </tr>
+		    <tr>
+				<td class="tooltip" id="fb"><a href="https://www.facebook.com"><img src="images/fb.png"><a class="tooltiptext">Go to Facebook</a></a></td>
+				<td class="tooltip" id="google"><a href="https://www.google.com"><img src="images/goog.png"><a class="tooltiptext">Go to Google</a></a></td> <!-- add gmail and onedrive !-->
+			</tr>
+		</table>
+    </div>
+    <div class="clock">
+            <span id="hr">00</span>
+            <span> : </span>
+            <span id="min">00</span>
+            <span> : </span>
+            <span id="sec">00</span>
+    </div>
+    <div class="goog">
+    	<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+        	<input id="ab" name="sitesearch" type="hidden" value="">
+			<input autocomplete="on" class="form-control search" name="q" placeholder="Google Search" required="required"  type="text">
+			<button class="button" type="submit">Search</button>
+		</form>
+    </div>
+    <!-- <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YnJvd25icmFuZG9uNzg3QGdtYWlsLmNvbQ&amp;src=cG02Z2lwazVwbHFlYXJxc2RvcTdoM2I4ZjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;color=%23009688&amp;mode=MONTH&amp;showPrint=0&amp;title=Brandon" style="border:solid 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe> !--> 
+</body>
+</html>
