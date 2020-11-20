@@ -91,26 +91,30 @@ table {
 	font-size:16;
 }
 .navbar {
-	text-align: center;
-	color:white;
-	background-color: black;
-
+  margin: auto;
+  text-align: center;
+  color:white;
 }
 #directory {
-	height: 0px;
-	overflow: hidden;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+a:link, a:visited {
+  color: white;
 }
 .navbar:hover #directory {
-  position: relative;
-	height:auto;
-	z-index:11;
-	max-height: 200px;
-	transition-property: all;
-	transition-delay: 2s;
-	transition-duration: 5s;
-	transition-timing-function: linear;
-	text-align: center;
-}
+  margin:auto;
+    position: absolute;
+    left: 0; right: 0;
+  height:auto;
+  z-index:11;
+  max-height: 200px;
+  transition-property: all;
+  transition-delay: 2s;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+  text-align: center;
 body {
 	text-align: center;
 }
