@@ -95,7 +95,7 @@ table {
   text-align: center;
   color:white;
 }
-#directory {
+.directory {
   height: 0px;
   overflow: hidden;
   text-align: center;
@@ -103,7 +103,7 @@ table {
 a:link, a:visited {
   color: white;
 }
-.navbar:hover #directory {
+.navbar:hover .directory {
   margin:auto;
     position: absolute;
     left: 0; right: 0;
